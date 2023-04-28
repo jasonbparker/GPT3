@@ -40,8 +40,9 @@
   cursor: pointer;
 }
 
-.gpt3__navbar-sign button {
-  padding: 0.5 rem 1rem;
+.gpt3__navbar-sign button,
+.gpt3__navbar-menu_container button {
+  padding: 0.5rem 1rem;
   color: #fff;
   background: #ff4820;
   font-family: var(--font-family);

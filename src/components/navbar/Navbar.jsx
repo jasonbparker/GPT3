@@ -27,7 +27,7 @@ const[toggleMenu, setToggleMenu] = useState(false)
           <Menu />
           </div>
       </div>
-      <div className="gpt3__navbar-menu_container-links-sign">
+      <div className="gpt3__navbar-sign">
         <p>Sign in</p>
         <button type="button">Sign up</button>
       </div>
@@ -40,6 +40,10 @@ const[toggleMenu, setToggleMenu] = useState(false)
           <div className="gpt3__navbar-menu_container scale-up-center">
             <div className="gpt3__navbar-menu_container-links">
               <Menu />
+                <div className="gpt3_navbar-menu_container-links-sign">
+                <p>Sign in</p>
+                <button type="button">Sign up</button>
+                </div>
             </div>
           </div>
         )}
